@@ -1,0 +1,62 @@
+# Submission files (model predictions)
+submission.csv
+submission_*.csv
+
+# Kaggle input data
+kaggle/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MCP config (local)
+.mcp.json
+
+# Claude Code settings (local)
+.claude/
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+*.onnx
+models/
